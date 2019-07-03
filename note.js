@@ -19,4 +19,20 @@ export default function page() {
   );
 }
 
-// reuseAble Component
+// reuseAble Component layout
+
+// installing gatsby-plugins
+// > yarn add gatsby-plugin-sass node-sass
+// ./gatsby-config.js
+module.exports = {
+  plugins: ['gatsby-plugin-sass'],
+};
+
+// modular css styling
+
+// adding metaData
+// ./gatsby-config.js
+// sitemetadata : {
+// title: 'A title',
+// author: 'Andrew Mead'
+// }
