@@ -2,13 +2,13 @@ import React from 'react';
 
 import Header from './Header';
 import Footer from './Footer';
-import '../styles/index.scss';
+import layoutStyles from './layout.module.scss';
 
 export default function Layout({ children }) {
   return (
     <>
       <Header />
-      {children}
+      <div className={layoutStyles.layoutContainer}>{children}</div>
       <Footer />
     </>
   );

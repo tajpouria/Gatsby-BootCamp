@@ -1,8 +1,7 @@
 .footer-content {
-  position: absolute;
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
   flex: 1;
-  left: 43%;
-  bottom: 20%;
   font-weight: bolder;
 }
